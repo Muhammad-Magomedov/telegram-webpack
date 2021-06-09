@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "watch": "webpack --mode development --open"
+    "watch": "webpack --mode development --watch",
+    "start": "webpack serve --open"
   },
   "browserslist": ["> 0.25%, not dead"],
   "keywords": [],
