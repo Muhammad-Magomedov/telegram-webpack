@@ -1,6 +1,7 @@
 const mongoose = require("mongoose")
 
-const Channel = mongoose.Schema({
+
+const Channel = new mongoose.Schema({
   title: {
     type: String,
     required: true
@@ -24,5 +25,7 @@ const Channel = mongoose.Schema({
     default: Date.now
   }
 })
+
+
 
 module.exports = mongoose.model("Channel", Channel)
